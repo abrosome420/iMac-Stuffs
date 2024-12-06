@@ -1,0 +1,17 @@
+*To make a popup*
+
+Open Script editor
+Type "display dialog "Enter your text here...""
+Run the script.
+If typed right you should see similar results to example 1 (Find it in the examples folder)
+
+*To add different options to your popup*
+
+Type "display dialog "Enter your text here..." buttons {"Choice 1", "Choice 2"}"
+Run the script.
+If typed right you should see similar results to example 2 (Find it in the examples folder)
+
+*To add actions to your buttons*
+
+type "if the button returned of the result is "Choice 1" then (put your action here)"
+then type "else" and then the action for the second button.
